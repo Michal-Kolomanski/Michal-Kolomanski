@@ -11,8 +11,6 @@
 - 🤝 &nbsp; Member of the [AVForce](https://github.com/AVForce) - team that works on AV related projects.
 - 🌱 &nbsp; Learning Ruby on Rails 
 
-<br>
-
 ### 🔨 Tools:
 <a href="https://www.python.org" target="_blank"><img align="left" alt="Python" height ="42px" src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/python.svg"></a>
 <a href="https://pytorch.org/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/pytorch.svg" alt="pytorch" height="42px"/> </a> 
@@ -29,3 +27,9 @@
 <a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/git.svg" align="left" alt="git" height='42px'/> </a>
 
 <br>
+<br>
+
+### 📊 Github Stats
+![Michał's stats](https://github-readme-stats.vercel.app/api?username=Michal-Kolomanski&count_private=true&show_icons=true&theme=radical)
+
+
