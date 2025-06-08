@@ -1,0 +1,143 @@
+name: Update README with Race Counters
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [ main ] # Also run when you push to main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README with race counters
+        run: |
+          # Define race data in a structured way
+          # Format: "RACE_NAME|EVENT_TYPE|DATE|GOAL" for upcoming races
+          # Format: "RACE_NAME|EVENT_TYPE|DATE|RESULT" for completed races
+          declare -a UPCOMING_RACE_DATA=(
+            "🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków|IRONMAN 70.3|2025-08-03|Finish Strong"
+            "🏃 Backyard Ultra Zagłębie|Backyard Ultra|2025-09-19|Run 100km and Survive 🙂"
+            "🏃 Poznań Marathon|Marathon|2025-10-12|<3:30h"
+          )
+          
+          declare -a COMPLETED_RACE_DATA=(
+            "🏃 Warsaw Marathon 2024|Marathon|2024-09-29|03:58:27"
+            "🏃 Kraków Marathon 2024|Marathon|2024-04-14|04:29:31"
+            "🏃 Warsaw Marathon 2023|Marathon|2023-09-24|05:47:17"
+          )
+          
+          # Get current date
+          CURRENT_DATE=$(date +%Y-%m-%d)
+          CURRENT_TIMESTAMP=$(date +"%B %d, %Y")
+          
+          # Initialize tables
+          UPCOMING_RACES=""
+          COMPLETED_RACES=""
+          
+          # Process upcoming races
+          for race in "${UPCOMING_RACE_DATA[@]}"; do
+            IFS='|' read -r name event_type date goal <<< "$race"
+            
+            # Calculate days until race
+            DAYS_DIFF=$(( ($(date -d "$date" +%s) - $(date -d "$CURRENT_DATE" +%s)) / 86400 ))
+            
+            if [ $DAYS_DIFF -lt 0 ]; then
+              DAYS_DISPLAY="**Completed** 🏁"
+            elif [ $DAYS_DIFF -eq 0 ]; then
+              DAYS_DISPLAY="**TODAY!** 🚀"
+            else
+              DAYS_DISPLAY="**${DAYS_DIFF} days** ⏳"
+            fi
+            
+            # Format date for display (DD.MM.YYYY)
+            DISPLAY_DATE=$(date -d "$date" +"%d.%m.%Y")
+            UPCOMING_RACES="${UPCOMING_RACES}| $name | $event_type | $DISPLAY_DATE | $DAYS_DISPLAY | $goal |\n"
+          done
+          
+          # Process completed races and sort them
+          for race in "${COMPLETED_RACE_DATA[@]}"; do
+            IFS='|' read -r name event_type date result <<< "$race"
+            COMPLETED_RACES="${COMPLETED_RACES}$event_type|$result|$name|$date\n"
+          done
+          
+          # Sort completed races by event type, then by result (time)
+          if [ ! -z "$COMPLETED_RACES" ]; then
+            SORTED_COMPLETED=$(echo -e "$COMPLETED_RACES" | sort -t'|' -k1,1 -k2,2)
+            COMPLETED_TABLE=""
+            while IFS='|' read -r event_type result name date; do
+              if [ ! -z "$event_type" ]; then
+                COMPLETED_TABLE="${COMPLETED_TABLE}| $name | $event_type | $date | $result |\n"
+              fi
+            done <<< "$SORTED_COMPLETED"
+          fi
+          
+          # Create a temporary file to build the new README
+          cp README.md README_backup.md
+          
+          # Find the start and end of the race sections
+          START_UPCOMING=$(grep -n "### ⏱️ Upcoming Races" README.md | cut -d: -f1)
+          START_COMPLETED=$(grep -n "### ✅ Completed Races" README.md | cut -d: -f1)
+          END_TIMESTAMP=$(grep -n "\*🤖 Auto-updated:" README.md | cut -d: -f1)
+          
+          if [ -z "$START_UPCOMING" ] || [ -z "$END_TIMESTAMP" ]; then
+            echo "Could not find race sections in README.md"
+            exit 1
+          fi
+          
+          # Extract parts of README
+          BEFORE_RACES=$(head -n $((START_UPCOMING - 1)) README.md)
+          AFTER_RACES=$(tail -n +$((END_TIMESTAMP + 1)) README.md)
+          
+          # Build new README
+          {
+            echo "$BEFORE_RACES"
+            
+            # Add upcoming races section
+            if [ ! -z "$UPCOMING_RACES" ]; then
+              echo "### ⏱️ Upcoming Races"
+              echo "| Race | Event Type | Date | Days Left | Goal |"
+              echo "|------|------------|------|-----------|------|"
+              echo -e "$UPCOMING_RACES"
+            fi
+            
+            # Add completed races section
+            if [ ! -z "$COMPLETED_TABLE" ]; then
+              echo "### ✅ Completed Races"
+              echo "| Race | Event Type | Date | Result |"
+              echo "|------|------------|------|--------|"
+              echo -e "$COMPLETED_TABLE"
+            fi
+            
+            echo ""
+            echo "*🤖 Auto-updated: $CURRENT_TIMESTAMP*"
+            echo ""
+            echo "$AFTER_RACES"
+            
+          } > README_new.md
+          
+          # Replace original README
+          mv README_new.md README.md
+          
+          # Clean up
+          rm -f README_backup.md
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Check if there are changes
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git add README.md
+            git commit -m "🤖 Update race countdown - $(date +%Y-%m-%d)"
+            git push
+          fi
