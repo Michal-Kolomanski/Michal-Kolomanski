@@ -49,12 +49,13 @@
 ### ✅ Completed Races
 | Race | Event Type | Date | Result |
 |------|------------|------|--------|
-| 🏃 Warsaw Marathon 2024 | Marathon | 2024-09-29 | 03:58:27 |
+| 🏃 Warsaw Marathon 2024 | Marathon | 2024-09-29 | 03:58:27 🥇 |
 | 🏃 Kraków Marathon 2024 | Marathon | 2024-04-14 | 04:29:31 |
 | 🏃 Warsaw Marathon 2023 | Marathon | 2023-09-24 | 05:47:17 |
 
 
 *🤖 Auto-updated: June 08, 2025*
+
 
 
 
