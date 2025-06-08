@@ -70,10 +70,84 @@ jobs:
           # Sort completed races by event type, then by result (time)
           if [ ! -z "$COMPLETED_RACES" ]; then
             SORTED_COMPLETED=$(echo -e "$COMPLETED_RACES" | sort -t'|' -k1,1 -k2,2)
+            
+            # Find best result for each event type
+            declare -A BEST_RESULTS
+            declare -A BEST_VALUES
+            
+            while IFS='|' read -r event_type result name date; do
+              if [ ! -z "$event_type" ]; then
+                comparison_value=""
+                
+                # Determine scoring logic based on event type
+                if [[ "$event_type" == *"Backyard Ultra"* ]]; then
+                  # For Backyard Ultra: longer time/distance is better
+                  # Support formats: "100km (15h)", "16h", "100km", "24"
+                  if [[ "$result" =~ ([0-9]+)km.*\(([0-9]+)h\) ]]; then
+                    # Format: "100km (15h)" - use distance as primary, time as secondary
+                    distance=${BASH_REMATCH[1]}
+                    hours=${BASH_REMATCH[2]}
+                    comparison_value=$((distance * 1000 + hours))  # Distance weighted higher
+                    is_higher_better=true
+                  elif [[ "$result" =~ ([0-9]+)km ]]; then
+                    # Format: "100km"
+                    comparison_value=${BASH_REMATCH[1]}
+                    is_higher_better=true
+                  elif [[ "$result" =~ ([0-9]+)h ]]; then
+                    # Format: "16h"
+                    comparison_value=${BASH_REMATCH[1]}
+                    is_higher_better=true
+                  elif [[ "$result" =~ ^([0-9]+)$ ]]; then
+                    # Format: just number "24"
+                    comparison_value=${BASH_REMATCH[1]}
+                    is_higher_better=true
+                  fi
+                else
+                  # For regular races: shorter time is better (convert HH:MM:SS to seconds)
+                  if [[ "$result" =~ ^[0-9]{1,2}:[0-9]{2}:[0-9]{2}$ ]]; then
+                    IFS=':' read -r hours minutes seconds <<< "$result"
+                    comparison_value=$((hours * 3600 + minutes * 60 + seconds))
+                    is_higher_better=false
+                  fi
+                fi
+                
+                # Check if this is the best result for this event type
+                if [ ! -z "$comparison_value" ]; then
+                  if [ -z "${BEST_RESULTS[$event_type]}" ]; then
+                    BEST_RESULTS[$event_type]=$comparison_value
+                    BEST_VALUES[$event_type]=$result
+                  else
+                    current_best=${BEST_RESULTS[$event_type]}
+                    if [[ "$event_type" == *"Backyard Ultra"* ]]; then
+                      # Higher is better for Backyard Ultra
+                      if [ "$comparison_value" -gt "$current_best" ]; then
+                        BEST_RESULTS[$event_type]=$comparison_value
+                        BEST_VALUES[$event_type]=$result
+                      fi
+                    else
+                      # Lower is better for time-based races
+                      if [ "$comparison_value" -lt "$current_best" ]; then
+                        BEST_RESULTS[$event_type]=$comparison_value
+                        BEST_VALUES[$event_type]=$result
+                      fi
+                    fi
+                  fi
+                fi
+              fi
+            done <<< "$SORTED_COMPLETED"
+            
+            # Build the completed table with gold medals
             COMPLETED_TABLE=""
             while IFS='|' read -r event_type result name date; do
               if [ ! -z "$event_type" ]; then
-                COMPLETED_TABLE="${COMPLETED_TABLE}| $name | $event_type | $date | $result |\n"
+                MEDAL=""
+                
+                # Check if this is the best result for this event type
+                if [ "$result" = "${BEST_VALUES[$event_type]}" ]; then
+                  MEDAL=" 🥇"
+                fi
+                
+                COMPLETED_TABLE="${COMPLETED_TABLE}| $name | $event_type | $date | $result$MEDAL |\n"
               fi
             done <<< "$SORTED_COMPLETED"
           fi
