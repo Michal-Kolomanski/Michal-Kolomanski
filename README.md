@@ -39,7 +39,6 @@
 - 🏊 Swimming
 - 🏋️‍♂️ Lifting at the gym
 - 🎙️ Recording the [Młode Wilki Podcast](https://www.youtube.com/@M%C5%82odeWilkiPodcast) 🇵🇱
-
 ### ⏱️ Upcoming Races
 | Race | Event Type | Date | Days Left | Goal |
 |------|------------|------|-----------|------|
@@ -54,7 +53,9 @@
 | 🏃 Kraków Marathon 2024 | Marathon | 2024-04-14 | 04:29:31 |
 | 🏃 Warsaw Marathon 2023 | Marathon | 2023-09-24 | 05:47:17 |
 
+
 *🤖 Auto-updated: June 08, 2025*
+
 
 ### 📊 Github Stats
 ![Michał's stats](https://github-readme-stats.vercel.app/api?username=Michal-Kolomanski&count_private=true&show_icons=true&theme=radical)
