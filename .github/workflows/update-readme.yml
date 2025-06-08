@@ -18,9 +18,18 @@ jobs:
 
       - name: Update README with race counters
         run: |
+          # Workflow:
+          # 1) Update "Days Left" column automatically
+          # 2) Create automatically "Completed Races" table - sort results by "Event Type" and sort DESC by Result, give a golden medal!
+          # Result sorting logic:
+          # - For normal races: less time - the better
+          # - For Backyard Ultra: distance (hours) - more distance/time - the better
+          
+          # How to maintain?
           # Define race data in a structured way
           # Format: "RACE_NAME|EVENT_TYPE|DATE|GOAL" for upcoming races
           # Format: "RACE_NAME|EVENT_TYPE|DATE|RESULT" for completed races
+          
           declare -a UPCOMING_RACE_DATA=(
             "🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków|IRONMAN 70.3|2025-08-03|Finish Strong"
             "🏃 Backyard Ultra Zagłębie|Backyard Ultra|2025-09-19|Run 100km and Survive 🙂"
