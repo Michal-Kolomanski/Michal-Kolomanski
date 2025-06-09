@@ -42,9 +42,9 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Date | Days Left | Goal |
 |------|------------|------|-----------|------|
-| 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 03.08.2025 | **56 days** ⏳ | Finish Strong |
-| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 19.09.2025 | **103 days** ⏳ | Run 100km and Survive 🙂 |
-| 🏃 Poznań Marathon | Marathon | 12.10.2025 | **126 days** ⏳ | <3:30h |
+| 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 03.08.2025 | **55 days** ⏳ | Finish Strong |
+| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 19.09.2025 | **102 days** ⏳ | Run 100km and Survive 🙂 |
+| 🏃 Poznań Marathon | Marathon | 12.10.2025 | **125 days** ⏳ | <3:30h |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Result |
@@ -54,7 +54,8 @@
 | 🏃 Warsaw Marathon 2023 | Marathon | 2023-09-24 | 05:47:17 |
 
 
-*🤖 Auto-updated: June 08, 2025*
+*🤖 Auto-updated: June 09, 2025*
+
 
 
 
