@@ -29,10 +29,14 @@ jobs:
           # Define race data in a structured way
           # Format: "RACE_NAME|EVENT_TYPE|DATE|GOAL" for upcoming races
           # Format: "RACE_NAME|EVENT_TYPE|DATE|RESULT" for completed races
+          # 
+          # DATE formats supported:
+          # - Single day: "2025-08-03"
+          # - Date range: "2025-09-19:2025-09-20" (start:end)
           
           declare -a UPCOMING_RACE_DATA=(
             "🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków|IRONMAN 70.3|2025-08-03|Finish Strong"
-            "🏃 Backyard Ultra Zagłębie|Backyard Ultra|2025-09-19|Run 100km and Survive 🙂"
+            "🏃 Backyard Ultra Zagłębie|Backyard Ultra|2025-09-19:2025-09-20|Run 100km and Survive 🙂"
             "🏃 Poznań Marathon|Marathon|2025-10-12|<3:30h"
           )
           
@@ -41,6 +45,42 @@ jobs:
             "🏃 Kraków Marathon 2024|Marathon|2024-04-14|04:29:31"
             "🏃 Warsaw Marathon 2023|Marathon|2023-09-24|05:47:17"
           )
+          
+          # Function to parse date (single or range)
+          parse_date() {
+            local date_input="$1"
+            local parse_type="$2"  # "start", "end", or "display"
+            
+            if [[ "$date_input" == *":"* ]]; then
+              # Date range format: start:end
+              IFS=':' read -r start_date end_date <<< "$date_input"
+              
+              case "$parse_type" in
+                "start")
+                  echo "$start_date"
+                  ;;
+                "end")
+                  echo "$end_date"
+                  ;;
+                "display")
+                  # Format: YYYY.MM.DD-YYYY.MM.DD
+                  start_display=$(date -d "$start_date" +"%Y.%m.%d")
+                  end_display=$(date -d "$end_date" +"%Y.%m.%d")
+                  echo "$start_display-$end_display"
+                  ;;
+              esac
+            else
+              # Single date
+              case "$parse_type" in
+                "start"|"end")
+                  echo "$date_input"
+                  ;;
+                "display")
+                  date -d "$date_input" +"%Y.%m.%d"
+                  ;;
+              esac
+            fi
+          }
           
           # Get current date
           CURRENT_DATE=$(date +%Y-%m-%d)
@@ -54,10 +94,22 @@ jobs:
           for race in "${UPCOMING_RACE_DATA[@]}"; do
             IFS='|' read -r name event_type date goal <<< "$race"
             
-            # Calculate days until race
-            DAYS_DIFF=$(( ($(date -d "$date" +%s) - $(date -d "$CURRENT_DATE" +%s)) / 86400 ))
+            # Parse dates
+            START_DATE=$(parse_date "$date" "start")
+            END_DATE=$(parse_date "$date" "end")
+            DISPLAY_DATE=$(parse_date "$date" "display")
             
-            if [ $DAYS_DIFF -lt 0 ]; then
+            # Calculate days until race start
+            DAYS_DIFF=$(( ($(date -d "$START_DATE" +%s) - $(date -d "$CURRENT_DATE" +%s)) / 86400 ))
+            
+            # Check if we're currently in the event (between start and end date)
+            CURRENT_TIMESTAMP_SEC=$(date -d "$CURRENT_DATE" +%s)
+            START_TIMESTAMP_SEC=$(date -d "$START_DATE" +%s)
+            END_TIMESTAMP_SEC=$(date -d "$END_DATE" +%s)
+            
+            if [ $CURRENT_TIMESTAMP_SEC -ge $START_TIMESTAMP_SEC ] && [ $CURRENT_TIMESTAMP_SEC -le $END_TIMESTAMP_SEC ]; then
+              DAYS_DISPLAY="**HAPPENING NOW!** 🚀"
+            elif [ $DAYS_DIFF -lt 0 ]; then
               DAYS_DISPLAY="**Completed** 🏁"
             elif [ $DAYS_DIFF -eq 0 ]; then
               DAYS_DISPLAY="**TODAY!** 🚀"
@@ -65,15 +117,17 @@ jobs:
               DAYS_DISPLAY="**${DAYS_DIFF} days** ⏳"
             fi
             
-            # Format date for display (DD.MM.YYYY)
-            DISPLAY_DATE=$(date -d "$date" +"%d.%m.%Y")
             UPCOMING_RACES="${UPCOMING_RACES}| $name | $event_type | $DISPLAY_DATE | $DAYS_DISPLAY | $goal |\n"
           done
           
           # Process completed races and sort them
           for race in "${COMPLETED_RACE_DATA[@]}"; do
             IFS='|' read -r name event_type date result <<< "$race"
-            COMPLETED_RACES="${COMPLETED_RACES}$event_type|$result|$name|$date\n"
+            
+            # Parse display date for completed races
+            DISPLAY_DATE=$(parse_date "$date" "display")
+            
+            COMPLETED_RACES="${COMPLETED_RACES}$event_type|$result|$name|$DISPLAY_DATE\n"
           done
           
           # Sort completed races by event type, then by result (time)
