@@ -35,7 +35,7 @@ jobs:
           # - Date range: "2025-09-19:2025-09-20" (start:end)
           
           declare -a UPCOMING_RACE_DATA=(
-            "🚴 Ride Across Poland Suwałki-Świnoujście|PL EAST-WEST|2025-07-11:2025-07-19|finish (~1000km)"
+            "🚴 Ride Across Poland (Suwałki-Świnoujście)|🇵🇱 EAST-WEST|2025-07-11:2025-07-19|finish (~1000km)"
             "🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków|IRONMAN 70.3|2025-08-03|Finish Strong"
             "🏃 Backyard Ultra Zagłębie|Backyard Ultra|2025-09-19:2025-09-20|Run 100km and Survive 🙂"
             "🏃 Poznań Marathon|Marathon|2025-10-12|<3:30h"
