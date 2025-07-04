@@ -40,12 +40,12 @@
 - 🏋️‍♂️ Lifting at the gym
 - 🎙️ Recording the [Młode Wilki Podcast](https://www.youtube.com/@M%C5%82odeWilkiPodcast) 🇵🇱
 ### ⏱️ Upcoming Races
-| Race                                        | Event Type | Date | Days Left | Goal |
-|---------------------------------------------|------------|------|-----------|------|
+| Race | Event Type | Date | Days Left | Goal |
+|------|------------|------|-----------|------|
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | **7 days** ⏳ | finish (~1000km) |
-| 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków               | IRONMAN 70.3 | 2025.08.03 | **30 days** ⏳ | Finish Strong |
-| 🏃 Backyard Ultra Zagłębie                  | Backyard Ultra | 2025.09.19-2025.09.20 | **77 days** ⏳ | Run 100km and Survive 🙂 |
-| 🏃 Poznań Marathon                          | Marathon | 2025.10.12 | **100 days** ⏳ | <3:30h |
+| 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 2025.08.03 | **30 days** ⏳ | Finish Strong |
+| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 2025.09.19-2025.09.20 | **77 days** ⏳ | Run 100km and Survive 🙂 |
+| 🏃 Poznań Marathon | Marathon | 2025.10.12 | **100 days** ⏳ | <3:30h |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Strava | Result |
@@ -56,6 +56,7 @@
 
 
 *🤖 Auto-updated: July 04, 2025*
+
 
 
 
