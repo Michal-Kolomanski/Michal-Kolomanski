@@ -54,7 +54,9 @@
 | 🏃 Kraków Marathon 2024 | Marathon | 2024.04.14 | [Link](https://www.strava.com/activities/11179716421?share_sig=3UIZY2OL1713105528&utm_medium=social&utm_source=android_share) | 04:29:31 |
 | 🏃 Warsaw Marathon 2023 | Marathon | 2023.09.24 | [Link](https://www.strava.com/activities/9911396841?share_sig=VAA0D44U1713105286&utm_medium=social&utm_source=android_share) | 05:47:17 |
 
+
 *🤖 Auto-updated: July 04, 2025*
+
 
 ### 📊 Github Stats
 ![Michał's stats](https://github-readme-stats.vercel.app/api?username=Michal-Kolomanski&count_private=true&show_icons=true&theme=radical)
