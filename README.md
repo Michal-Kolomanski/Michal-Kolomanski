@@ -33,7 +33,7 @@
 <br>  
 <br>  
 
-## When I'm not in front of a screen, you'll probably find me:
+## When I’m not in front of a screen, you’ll probably find me:
 - 🏃 Running
 - 🚴 Cycling
 - 🏊 Swimming
