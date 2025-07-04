@@ -28,22 +28,23 @@ jobs:
           # How to maintain?
           # Define race data in a structured way
           # Format: "RACE_NAME|EVENT_TYPE|DATE|GOAL" for upcoming races
-          # Format: "RACE_NAME|EVENT_TYPE|DATE|RESULT" for completed races
+          # Format: "RACE_NAME|EVENT_TYPE|DATE|STRAVA_LINK|RESULT" for completed races
           # 
           # DATE formats supported:
           # - Single day: "2025-08-03"
           # - Date range: "2025-09-19:2025-09-20" (start:end)
           
           declare -a UPCOMING_RACE_DATA=(
+            "🚴 Ride Across Poland Suwałki-Świnoujście|PL EAST-WEST|2025-07-11:2025-07-19|finish (~1000km)"
             "🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków|IRONMAN 70.3|2025-08-03|Finish Strong"
             "🏃 Backyard Ultra Zagłębie|Backyard Ultra|2025-09-19:2025-09-20|Run 100km and Survive 🙂"
             "🏃 Poznań Marathon|Marathon|2025-10-12|<3:30h"
           )
           
           declare -a COMPLETED_RACE_DATA=(
-            "🏃 Warsaw Marathon 2024|Marathon|2024-09-29|03:58:27"
-            "🏃 Kraków Marathon 2024|Marathon|2024-04-14|04:29:31"
-            "🏃 Warsaw Marathon 2023|Marathon|2023-09-24|05:47:17"
+            "🏃 Warsaw Marathon 2024|Marathon|2024-09-29|https://www.strava.com/activities/12531323025?utm_source=ios_share&utm_medium=social&share_sig=64733EDE1727629711&fbclid=PAZXh0bgNhZW0CMTEAAafc8yzW3ii9koA5-nxJkRaHQcIKrkDxQwfKWHDcuNoJXgM7RShyWIzuXiA0WQ_aem_mur5gamWZZW6bKzKw2Svjg&_branch_match_id=1401898015619269921&_branch_referrer=H4sIAAAAAAAAAwXB2wqCMBgA4LfprpROViAxLDylZAYTb2SzuS2P%2FJ696Nn7PtF1TXtRlLYDMpANaZpNIatc6S3TfHh7Tfj0mtG0kB%2F9ieJIqJT7Isaq4b3vCJEsPc0L3kl5zmt0WFeTk7%2BIFaS2C%2FltCsbMxdYt7f3aibinvUIxY3vpI4lUHCSElUnZw4GTEscxPlJ3ccdtOHz56gcsYwCy4gmFemwZ6IaAumR%2Fdhh%2BPbAAAAA%3D|03:58:27"
+            "🏃 Kraków Marathon 2024|Marathon|2024-04-14|https://www.strava.com/activities/11179716421?share_sig=3UIZY2OL1713105528&utm_medium=social&utm_source=android_share|04:29:31"
+            "🏃 Warsaw Marathon 2023|Marathon|2023-09-24|https://www.strava.com/activities/9911396841?share_sig=VAA0D44U1713105286&utm_medium=social&utm_source=android_share|05:47:17"
           )
           
           # Function to parse date (single or range)
@@ -122,12 +123,19 @@ jobs:
           
           # Process completed races and sort them
           for race in "${COMPLETED_RACE_DATA[@]}"; do
-            IFS='|' read -r name event_type date result <<< "$race"
+            IFS='|' read -r name event_type date strava_link result <<< "$race"
             
             # Parse display date for completed races
             DISPLAY_DATE=$(parse_date "$date" "display")
             
-            COMPLETED_RACES="${COMPLETED_RACES}$event_type|$result|$name|$DISPLAY_DATE\n"
+            # Format Strava link as clickable if it's a URL
+            if [[ "$strava_link" == http* ]]; then
+              STRAVA_FORMATTED="[Link]($strava_link)"
+            else
+              STRAVA_FORMATTED="$strava_link"
+            fi
+            
+            COMPLETED_RACES="${COMPLETED_RACES}$event_type|$result|$name|$DISPLAY_DATE|$STRAVA_FORMATTED\n"
           done
           
           # Sort completed races by event type, then by result (time)
@@ -138,7 +146,7 @@ jobs:
             declare -A BEST_RESULTS
             declare -A BEST_VALUES
             
-            while IFS='|' read -r event_type result name date; do
+            while IFS='|' read -r event_type result name date strava; do
               if [ ! -z "$event_type" ]; then
                 comparison_value=""
                 
@@ -201,7 +209,7 @@ jobs:
             
             # Build the completed table with gold medals
             COMPLETED_TABLE=""
-            while IFS='|' read -r event_type result name date; do
+            while IFS='|' read -r event_type result name date strava; do
               if [ ! -z "$event_type" ]; then
                 MEDAL=""
                 
@@ -210,7 +218,7 @@ jobs:
                   MEDAL=" 🥇"
                 fi
                 
-                COMPLETED_TABLE="${COMPLETED_TABLE}| $name | $event_type | $date | $result$MEDAL |\n"
+                COMPLETED_TABLE="${COMPLETED_TABLE}| $name | $event_type | $date | $strava | $result$MEDAL |\n"
               fi
             done <<< "$SORTED_COMPLETED"
           fi
@@ -247,8 +255,8 @@ jobs:
             # Add completed races section
             if [ ! -z "$COMPLETED_TABLE" ]; then
               echo "### ✅ Completed Races"
-              echo "| Race | Event Type | Date | Result |"
-              echo "|------|------------|------|--------|"
+              echo "| Race | Event Type | Date | Strava | Result |"
+              echo "|------|------------|------|--------|--------|"
               echo -e "$COMPLETED_TABLE"
             fi
             
