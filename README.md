@@ -39,7 +39,6 @@
 - 🏊 Swimming
 - 🏋️‍♂️ Lifting at the gym
 - 🎙️ Recording the [Młode Wilki Podcast](https://www.youtube.com/@M%C5%82odeWilkiPodcast) 🇵🇱
-
 ### ⏱️ Upcoming Races
 | Race | Event Type | Date | Days Left | Goal |
 |------|------------|------|-----------|------|
