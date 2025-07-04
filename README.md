@@ -14,20 +14,48 @@
 
 ### 🔨 Tools:
 <p>
-   <a href="https://www.python.org" target="_blank"><img alt="python" height ="42px" src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/python.svg"></a>
-   <a href="https://spark.apache.org/docs/latest/api/python/index.html#" target="_blank"> <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/pyspark.svg" alt="pysaprk" height='42px'/> </a>
-   <a href="https://solr.apache.org/" target="_blank"> <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/solr.svg" alt="solr" height='42px'/> </a>
-   <a href="https://fastapi.tiangolo.com/" target="_blank"> <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/fastapi.svg" alt="fastapi" height='42px'/> </a>
-   <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank"> <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/flask.png" alt="flask" height='42px'/> </a>
-   <a href="https://angular.io/" target="_blank"> <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/angular.svg" alt="angular" height='42px'/> </a>
-   <a href="https://pytorch.org/" target="_blank"> <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/pytorch.svg" alt="pytorch" height="42px"/> </a> 
-   <a href="https://www.tensorflow.org" target="_blank"> <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/tensorflow.svg" alt="tensorflow" height="42px"/> </a>
-   <a href="https://numpy.org/" target="_blank"> <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/numpy.svg" alt="numpy" height='42px'/> </a>
-   <a href="https://pandas.pydata.org/" target="_blank"> <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/287fc4556e53bd4e5173bb511023e23ca92b0505/icons/pandas.svg" alt="pandas" height='42px'/> </a>
-   <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/287fc4556e53bd4e5173bb511023e23ca92b0505/icons/mongodb.svg" alt="mongodb" height='42px'/> </a>
-   <a href="https://www.postgresql.org/" target="_blank"> <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/287fc4556e53bd4e5173bb511023e23ca92b0505/icons/postgresql.svg" alt="postgresql" height='42px'/> </a>
-   <a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/287fc4556e53bd4e5173bb511023e23ca92b0505/icons/docker.svg" alt="docker" height='42px'/> </a>
-   <a href="https://carla.org/" target="_blank"> <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/carla.png" alt="carla" height='42px'/> </a>
+   <a href="https://www.python.org" target="_blank">
+     <img alt="python" style="height: 42px; width: auto;" src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/python.svg">
+   </a>
+   <a href="https://spark.apache.org/docs/latest/api/python/index.html#" target="_blank">
+     <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/pyspark.svg" alt="pyspark" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://solr.apache.org/" target="_blank">
+     <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/solr.svg" alt="solr" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://fastapi.tiangolo.com/" target="_blank">
+     <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/fastapi.svg" alt="fastapi" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank">
+     <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/flask.png" alt="flask" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://angular.io/" target="_blank">
+     <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/angular.svg" alt="angular" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://pytorch.org/" target="_blank">
+     <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/pytorch.svg" alt="pytorch" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://www.tensorflow.org" target="_blank">
+     <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/tensorflow.svg" alt="tensorflow" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://numpy.org/" target="_blank">
+     <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/5e67828415e0d4e372b0f846251364c13da68ae3/icons/numpy.svg" alt="numpy" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://pandas.pydata.org/" target="_blank">
+     <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/287fc4556e53bd4e5173bb511023e23ca92b0505/icons/pandas.svg" alt="pandas" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://www.mongodb.com/" target="_blank">
+     <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/287fc4556e53bd4e5173bb511023e23ca92b0505/icons/mongodb.svg" alt="mongodb" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://www.postgresql.org/" target="_blank">
+     <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/287fc4556e53bd4e5173bb511023e23ca92b0505/icons/postgresql.svg" alt="postgresql" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://www.docker.com/" target="_blank">
+     <img src="https://raw.githubusercontent.com/Michal-Kolomanski/Michal-Kolomanski/287fc4556e53bd4e5173bb511023e23ca92b0505/icons/docker.svg" alt="docker" style="height: 42px; width: auto;"/>
+   </a>
+   <a href="https://carla.org/" target="_blank">
+     <img src="https://github.com/Michal-Kolomanski/Michal-Kolomanski/blob/main/icons/carla.png" alt="carla" style="height: 42px; width: auto;"/>
+   </a>
 </p>
 
 ## When I’m not in front of a screen, you’ll probably find me:
