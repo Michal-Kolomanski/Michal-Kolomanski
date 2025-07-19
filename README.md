@@ -68,9 +68,9 @@
 | Race | Event Type | Date | Days Left | Goal |
 |------|------------|------|-----------|------|
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | **HAPPENING NOW!** 🚀 | finish (~1000km) |
-| 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 2025.08.03 | **16 days** ⏳ | Finish Strong |
-| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 2025.09.19-2025.09.20 | **63 days** ⏳ | Run 100km and Survive 🙂 |
-| 🏃 Poznań Marathon | Marathon | 2025.10.12 | **86 days** ⏳ | <3:30h |
+| 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 2025.08.03 | **15 days** ⏳ | Finish Strong |
+| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 2025.09.19-2025.09.20 | **62 days** ⏳ | Run 100km and Survive 🙂 |
+| 🏃 Poznań Marathon | Marathon | 2025.10.12 | **85 days** ⏳ | <3:30h |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Strava | Result |
@@ -80,7 +80,8 @@
 | 🏃 Warsaw Marathon 2023 | Marathon | 2023.09.24 | [Link](https://www.strava.com/activities/9911396841?share_sig=VAA0D44U1713105286&utm_medium=social&utm_source=android_share) | 05:47:17 |
 
 
-*🤖 Auto-updated: July 18, 2025*
+*🤖 Auto-updated: July 19, 2025*
+
 
 
 
