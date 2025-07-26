@@ -67,7 +67,6 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Date | Days Left | Goal |
 |------|------------|------|-----------|------|
-| 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | **Completed** 🏁 | finish (~1000km) |
 | 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 2025.08.03 | **8 days** ⏳ | Finish Strong |
 | 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 2025.09.19-2025.09.20 | **55 days** ⏳ | Run 100km and Survive 🙂 |
 | 🏃 Poznań Marathon | Marathon | 2025.10.12 | **78 days** ⏳ | <3:30h |
@@ -78,9 +77,11 @@
 | 🏃 Warsaw Marathon 2024 | Marathon | 2024.09.29 | [Link](https://www.strava.com/activities/12531323025?utm_source=ios_share&utm_medium=social&share_sig=64733EDE1727629711&fbclid=PAZXh0bgNhZW0CMTEAAafc8yzW3ii9koA5-nxJkRaHQcIKrkDxQwfKWHDcuNoJXgM7RShyWIzuXiA0WQ_aem_mur5gamWZZW6bKzKw2Svjg&_branch_match_id=1401898015619269921&_branch_referrer=H4sIAAAAAAAAAwXB2wqCMBgA4LfprpROViAxLDylZAYTb2SzuS2P%2FJ696Nn7PtF1TXtRlLYDMpANaZpNIatc6S3TfHh7Tfj0mtG0kB%2F9ieJIqJT7Isaq4b3vCJEsPc0L3kl5zmt0WFeTk7%2BIFaS2C%2FltCsbMxdYt7f3aibinvUIxY3vpI4lUHCSElUnZw4GTEscxPlJ3ccdtOHz56gcsYwCy4gmFemwZ6IaAumR%2Fdhh%2BPbAAAAA%3D) | 03:58:27 🥇 |
 | 🏃 Kraków Marathon 2024 | Marathon | 2024.04.14 | [Link](https://www.strava.com/activities/11179716421?share_sig=3UIZY2OL1713105528&utm_medium=social&utm_source=android_share) | 04:29:31 |
 | 🏃 Warsaw Marathon 2023 | Marathon | 2023.09.24 | [Link](https://www.strava.com/activities/9911396841?share_sig=VAA0D44U1713105286&utm_medium=social&utm_source=android_share) | 05:47:17 |
+| 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | [1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) | Distance: 943km, Time: 7 days, [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1) |
 
 
 *🤖 Auto-updated: July 26, 2025*
+
 
 
 
