@@ -67,9 +67,9 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Date | Days Left | Goal |
 |------|------------|------|-----------|------|
-| 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 2025.08.03 | **7 days** ⏳ | Finish Strong |
-| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 2025.09.19-2025.09.20 | **54 days** ⏳ | Run 100km and Survive 🙂 |
-| 🏃 Poznań Marathon | Marathon | 2025.10.12 | **77 days** ⏳ | <3:30h |
+| 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 2025.08.03 | **6 days** ⏳ | Finish Strong |
+| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 2025.09.19-2025.09.20 | **53 days** ⏳ | Run 100km and Survive 🙂 |
+| 🏃 Poznań Marathon | Marathon | 2025.10.12 | **76 days** ⏳ | <3:30h |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Strava | Result |
@@ -80,7 +80,8 @@
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | [1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) | Distance: 943km, Time: 7 days, [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1) |
 
 
-*🤖 Auto-updated: July 27, 2025*
+*🤖 Auto-updated: July 28, 2025*
+
 
 
 
