@@ -110,8 +110,8 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Date | Days Left | Goal |
 |------|------------|------|-----------|------|
-| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 2025.09.19-2025.09.20 | **32 days** ⏳ | Run 100km and Survive 🙂 |
-| 🏃 Poznań Marathon | Marathon | 2025.10.12 | **55 days** ⏳ | <3:30h |
+| 🏃 Backyard Ultra Zagłębie | Backyard Ultra | 2025.09.19-2025.09.20 | **31 days** ⏳ | Run 100km and Survive 🙂 |
+| 🏃 Poznań Marathon | Marathon | 2025.10.12 | **54 days** ⏳ | <3:30h |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Links | Result |
@@ -123,7 +123,8 @@
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | [1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1) | Distance: 943km, Time: 7 days |
 
 
-*🤖 Auto-updated: August 18, 2025*
+*🤖 Auto-updated: August 19, 2025*
+
 
 
 
