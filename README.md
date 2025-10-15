@@ -23,7 +23,7 @@
 - 🎙️ Recording the [Młode Wilki Podcast](https://www.youtube.com/@M%C5%82odeWilkiPodcast) 🇵🇱
 ### ⏱️ Upcoming Races
 
-> *"The season has ended, but rest assured I solemnly swear that I'm up to no good! 🧙 "*
+> 🧙‍♂️ *"The season has ended, but rest assured—I solemnly swear that I am plotting something wicked."*
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Links | Result |
@@ -38,6 +38,7 @@
 
 
 *🤖 Auto-updated: October 15, 2025*
+
 
 
 
