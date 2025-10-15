@@ -242,7 +242,7 @@ jobs:
               # No upcoming races - show the Harry Potter reference
               echo "### ⏱️ Upcoming Races"
               echo ""
-              echo "> 🧙‍♂️ *\"The season has ended, but rest assured—I solemnly swear that I am plotting something wicked.\"*"
+              echo "> *\"The season has ended, but rest assured I solemnly swear that I'm up to no good! 🧙 \"*"
               echo ""
             else
               echo "### ⏱️ Upcoming Races"
