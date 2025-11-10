@@ -15,14 +15,7 @@
 ### 📄 Papers:
 - [Towards End-to-End Chase in Urban Autonomous Driving Using Reinforcement Learning](https://link.springer.com/chapter/10.1007/978-3-031-16075-2_29) 🚗
 
-## When I’m not in front of a screen, you’ll probably find me:
-- 🏃 Running
-- 🚴 Cycling
-- 🏊 Swimming
-- 🏋️‍♂️ Lifting at the gym
-- 🎙️ Recording the [Młode Wilki Podcast](https://www.youtube.com/@M%C5%82odeWilkiPodcast) 🇵🇱
 ### ⏱️ Upcoming Races
-
 > *"The season has ended, but rest assured I solemnly swear that I am up to no good! 🧙‍♂️ "*
 
 ### ✅ Completed Races
