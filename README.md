@@ -14,8 +14,8 @@
 
 ### 📄 Papers:
 - [Towards End-to-End Chase in Urban Autonomous Driving Using Reinforcement Learning](https://link.springer.com/chapter/10.1007/978-3-031-16075-2_29) 🚗
-
 ### ⏱️ Upcoming Races
+
 > *"The season has ended, but rest assured I solemnly swear that I am up to no good! 🧙‍♂️ "*
 
 ### ✅ Completed Races
@@ -31,6 +31,7 @@
 
 
 *🤖 Auto-updated: November 10, 2025*
+
 
 
 
