@@ -35,7 +35,8 @@ jobs:
           # - Date range: "2025-09-19:2025-09-20" (start:end)
           
           declare -a UPCOMING_RACE_DATA=(
-            "🏃 Kraków Marathon 2026|Marathon|2026-04-19|<3:25h|Yes"
+            "🏃 Kraków Marathon 2026|Marathon|-|2026-04-19|<3:25h|Yes"
+            "🏃 Łącko Fest - Trail Half Marathon|Trail Half Marathon|635m|2026-05-09|Have fun but try best. Trail debut|Yes"
           )
           
           declare -a COMPLETED_RACE_DATA=(
@@ -91,10 +92,9 @@ jobs:
           # Initialize tables
           UPCOMING_RACES=""
           COMPLETED_RACES=""
-          
           # Process upcoming races
           for race in "${UPCOMING_RACE_DATA[@]}"; do
-            IFS='|' read -r name event_type date goal registered <<< "$race"
+            IFS='|' read -r name event_type elevation date goal registered <<< "$race"
             
             # Parse dates
             START_DATE=$(parse_date "$date" "start")
@@ -119,7 +119,7 @@ jobs:
               DAYS_DISPLAY="**${DAYS_DIFF} days** ⏳"
             fi
             
-            UPCOMING_RACES="${UPCOMING_RACES}| $name | $event_type | $DISPLAY_DATE | $DAYS_DISPLAY | $goal | $registered |\n"
+            UPCOMING_RACES="${UPCOMING_RACES}| $name | $event_type | $elevation | $DISPLAY_DATE | $DAYS_DISPLAY | $goal | $registered |\n"
           done
           
           # Process completed races and sort them
@@ -247,8 +247,8 @@ jobs:
               echo ""
             else
               echo "### ⏱️ Upcoming Races"
-              echo "| Race | Event Type | Date | Days Left | Goal | Registered? |"
-              echo "|------|------------|------|-----------|------|-------------|"
+              echo "| Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |"
+              echo "|------|------------|-----------|------|-----------|------|-------------|"
               echo -e "$UPCOMING_RACES"
             fi
             
