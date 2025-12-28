@@ -37,6 +37,8 @@ jobs:
           declare -a UPCOMING_RACE_DATA=(
             "🏃 Kraków Marathon 2026|Marathon|-|2026-04-19|<3:25h|Yes"
             "🏃 Łącko Fest |Trail Half Marathon|635m|2026-05-09|Have fun but try hard. Trail debut|Yes"
+            "🏃 Ultra Wierchami|65km Trail Ultra|2132m|2026-06-20|Survive and try to thrive|NO - registration not opened"
+            "🏃 Backyard Ultra Zagłębie 2026|Backyard Ultra|-|2026-09-18|Min: 100km, Avg: survive till sunrise, Max: 24h run|NO - registration not opened"
           )
           
           declare -a COMPLETED_RACE_DATA=(
@@ -45,7 +47,7 @@ jobs:
             "🏃 Kraków Marathon 2024|Marathon|2024-04-14|[Strava](https://www.strava.com/activities/11179716421?share_sig=3UIZY2OL1713105528&utm_medium=social&utm_source=android_share)|04:29:31"
             "🏃 Warsaw Marathon 2023|Marathon|2023-09-24|[Strava](https://www.strava.com/activities/9911396841?share_sig=VAA0D44U1713105286&utm_medium=social&utm_source=android_share)|05:47:17"
             "🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków|IRONMAN 70.3|2025-08-03|[Swim](https://www.strava.com/activities/15330199249) [Bike](https://www.strava.com/activities/15331983225) [Run](https://www.strava.com/activities/15330206515) [Summary](https://www.instagram.com/p/DNGo1IwsmK0)|06:18:19"
-            "🏃 Backyard Ultra Zagłębie|Backyard Ultra|2025-09-19|[Strava](https://www.strava.com/activities/15868592716) [Instagram](https://www.instagram.com/stories/highlights/18078026911986589/) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/buz-2025/)|55km (8h) - 88th place"
+            "🏃 Backyard Ultra Zagłębie 2025|Backyard Ultra|2025-09-19|[Strava](https://www.strava.com/activities/15868592716) [Instagram](https://www.instagram.com/stories/highlights/18078026911986589/) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/buz-2025/)|55km (8h) - 88th place"
             "🚴 Ride Across Poland (Suwałki-Świnoujście)|🇵🇱 EAST-WEST|2025-07-11:2025-07-19|[1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1)|Distance: 943km, Time: 7 days"
           )
           
