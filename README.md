@@ -15,8 +15,9 @@
 ### 📄 Papers:
 - [Towards End-to-End Chase in Urban Autonomous Driving Using Reinforcement Learning](https://link.springer.com/chapter/10.1007/978-3-031-16075-2_29) 🚗
 ### ⏱️ Upcoming Races
-
-> *"The season has ended, but rest assured I solemnly swear that I am up to no good! 🧙‍♂️ "*
+| Race | Event Type | Date | Days Left | Goal | Registered? |
+|------|------------|------|-----------|------|-------------|
+| 🏃 Kraków Marathon 2026 | Marathon | 2026.04.19 | **112 days** ⏳ | <3:25h | Yes |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Links | Result |
@@ -31,6 +32,7 @@
 
 
 *🤖 Auto-updated: December 28, 2025*
+
 
 
 
