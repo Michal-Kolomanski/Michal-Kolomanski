@@ -18,7 +18,7 @@
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
 | 🏃 Kraków Marathon 2026 | Marathon | - | 2026.04.19 | **112 days** ⏳ | <3:25h | Yes |
-| 🏃 Łącko Fest - Trail Half Marathon | Trail Half Marathon | 635m | 2026.05.09 | **132 days** ⏳ | Have fun but try best. Trail debut | Yes |
+| 🏃 Łącko Fest  | Trail Half Marathon | 635m | 2026.05.09 | **132 days** ⏳ | Have fun but try hard. Trail debut | Yes |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Links | Result |
@@ -33,6 +33,7 @@
 
 
 *🤖 Auto-updated: December 28, 2025*
+
 
 
 
