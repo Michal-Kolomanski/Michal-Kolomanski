@@ -17,10 +17,10 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
-| 🏃 Kraków Marathon 2026 | Marathon | - | 2026.04.19 | **79 days** ⏳ | <3:25h | Yes |
-| 🏃 Łącko Fest  | Trail Half Marathon | 635m | 2026.05.09 | **99 days** ⏳ | Have fun but try hard. Trail debut | Yes |
-| 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **141 days** ⏳ | Survive and try to thrive | NO - registration not opened |
-| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **231 days** ⏳ | Min: 100km, Avg: survive till sunrise, Max: 24h run | NO - registration not opened |
+| 🏃 Kraków Marathon 2026 | Marathon | - | 2026.04.19 | **78 days** ⏳ | <3:25h | Yes |
+| 🏃 Łącko Fest  | Trail Half Marathon | 635m | 2026.05.09 | **98 days** ⏳ | Have fun but try hard. Trail debut | Yes |
+| 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **140 days** ⏳ | Survive and try to thrive | NO - registration not opened |
+| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **230 days** ⏳ | Min: 100km, Avg: survive till sunrise, Max: 24h run | NO - registration not opened |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Links | Result |
@@ -34,7 +34,8 @@
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | [1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1) | Distance: 943km, Time: 7 days |
 
 
-*🤖 Auto-updated: January 30, 2026*
+*🤖 Auto-updated: January 31, 2026*
+
 
 
 
