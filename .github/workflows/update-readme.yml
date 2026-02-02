@@ -39,7 +39,7 @@ jobs:
             "🏃 Kraków Marathon 2026|Marathon|-|2026-04-19|<3:25h|Yes"
             "🏃 Łącko Fest |Trail Half Marathon|635m|2026-05-09|Have fun but try hard. Trail debut|Yes"
             "🏃 Ultra Wierchami|65km Trail Ultra|2132m|2026-06-20|Survive and try to thrive|NO - registration not opened"
-            "🏃 Backyard Ultra Zagłębie 2026|Backyard Ultra|-|2026-09-18|Min: 100km, Avg: survive till sunrise, Max: 24h run|NO - registration not opened"
+            "🏃 Backyard Ultra Zagłębie 2026|Backyard Ultra|-|2026-09-18|Min: 100km, Expected: survive till sunrise, Max: 24h run|NO - registration not opened"
           )
           
           declare -a COMPLETED_RACE_DATA=(
