@@ -17,6 +17,7 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
+| 🏃 22. Krakowski Półmaraton Marzanny  | Half Marathon | - | 2026.03.22 | **48 days** ⏳ | <1:40h | Yes |
 | 🏃 Kraków Marathon 2026 | Marathon | - | 2026.04.19 | **76 days** ⏳ | <3:25h | Yes |
 | 🏃 Łącko Fest  | Trail Half Marathon | 635m | 2026.05.09 | **96 days** ⏳ | Have fun but try hard. Trail debut | Yes |
 | 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **138 days** ⏳ | Survive and try to thrive | NO - registration not opened |
@@ -35,6 +36,7 @@
 
 
 *🤖 Auto-updated: February 02, 2026*
+
 
 
 
