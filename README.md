@@ -21,7 +21,7 @@
 | 🏃 Kraków Marathon 2026 | Marathon | - | 2026.04.19 | **76 days** ⏳ | <3:25h | Yes |
 | 🏃 Łącko Fest  | Trail Half Marathon | 635m | 2026.05.09 | **96 days** ⏳ | Have fun but try hard. Trail debut | Yes |
 | 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **138 days** ⏳ | Survive and try to thrive | NO - registration not opened |
-| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **228 days** ⏳ | Min: 100km, Avg: survive till sunrise, Max: 24h run | NO - registration not opened |
+| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **228 days** ⏳ | Min: 100km, Expected: survive till sunrise, Max: 24h run | NO - registration not opened |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Links | Result |
@@ -36,6 +36,7 @@
 
 
 *🤖 Auto-updated: February 02, 2026*
+
 
 
 
