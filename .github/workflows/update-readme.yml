@@ -35,6 +35,7 @@ jobs:
           # - Date range: "2025-09-19:2025-09-20" (start:end)
           
           declare -a UPCOMING_RACE_DATA=(
+            "🏃 22. Krakowski Półmaraton Marzanny |Half Marathon|-|2026-03-22|<1:40h|Yes"
             "🏃 Kraków Marathon 2026|Marathon|-|2026-04-19|<3:25h|Yes"
             "🏃 Łącko Fest |Trail Half Marathon|635m|2026-05-09|Have fun but try hard. Trail debut|Yes"
             "🏃 Ultra Wierchami|65km Trail Ultra|2132m|2026-06-20|Survive and try to thrive|NO - registration not opened"
