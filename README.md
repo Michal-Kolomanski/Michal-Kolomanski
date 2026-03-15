@@ -17,11 +17,11 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
-| 🏃 22. Krakowski Półmaraton Marzanny  | Half Marathon | - | 2026.03.22 | **8 days** ⏳ | <1:40h | Yes |
-| 🏃 Kraków Marathon 2026 | Marathon | - | 2026.04.19 | **36 days** ⏳ | <3:25h | Yes |
-| 🏃 Łącko Fest  | Trail Half Marathon | 635m | 2026.05.09 | **56 days** ⏳ | Have fun but try hard. Trail debut | Yes |
-| 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **98 days** ⏳ | Survive and try to thrive | NO - registration not opened |
-| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **188 days** ⏳ | Min: 100km, Expected: survive till sunrise, Max: 24h run | NO - registration not opened |
+| 🏃 22. Krakowski Półmaraton Marzanny  | Half Marathon | - | 2026.03.22 | **7 days** ⏳ | <1:40h | Yes |
+| 🏃 Kraków Marathon 2026 | Marathon | - | 2026.04.19 | **35 days** ⏳ | <3:25h | Yes |
+| 🏃 Łącko Fest  | Trail Half Marathon | 635m | 2026.05.09 | **55 days** ⏳ | Have fun but try hard. Trail debut | Yes |
+| 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **97 days** ⏳ | Survive and try to thrive | NO - registration not opened |
+| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **187 days** ⏳ | Min: 100km, Expected: survive till sunrise, Max: 24h run | NO - registration not opened |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Links | Result |
@@ -35,7 +35,8 @@
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | [1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1) | Distance: 943km, Time: 7 days |
 
 
-*🤖 Auto-updated: March 14, 2026*
+*🤖 Auto-updated: March 15, 2026*
+
 
 
 
