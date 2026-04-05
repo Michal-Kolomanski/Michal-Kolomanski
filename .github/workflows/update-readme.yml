@@ -49,7 +49,7 @@ jobs:
             "🏃 Warsaw Marathon 2023|Marathon|2023-09-24|[Strava](https://www.strava.com/activities/9911396841?share_sig=VAA0D44U1713105286&utm_medium=social&utm_source=android_share)|05:47:17|Finish"
             "🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków|IRONMAN 70.3|2025-08-03|[Swim](https://www.strava.com/activities/15330199249) [Bike](https://www.strava.com/activities/15331983225) [Run](https://www.strava.com/activities/15330206515) [Summary](https://www.instagram.com/p/DNGo1IwsmK0)|06:18:19|Finish"
             "🏃 Backyard Ultra Zagłębie 2025|Backyard Ultra|2025-09-19|[Strava](https://www.strava.com/activities/15868592716) [Instagram](https://www.instagram.com/stories/highlights/18078026911986589/) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/buz-2025/)|55km (8h) - 88th place|Run 100km"
-            "🚴 Ride Across Poland (Suwałki-Świnoujście)|🇵🇱 EAST-WEST|2025-07-11:2025-07-19|[1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1)|Distance: 943km, Time: 7 days|Have fun and bike whole Poland"
+            "🚴 Ride Across Poland (Suwałki-Świnoujście)|🇵🇱 EAST-WEST|2025-07-11:2025-07-19|[1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1)|Distance: 943km, Time: 7 days|Have fun"
           )
           
           # Function to parse date (single or range)
@@ -215,7 +215,7 @@ jobs:
                   MEDAL=" 🥇"
                 fi
                 
-                COMPLETED_TABLE="${COMPLETED_TABLE}| $name | $event_type | $date | $links | $result$MEDAL | $goal |\n"
+                COMPLETED_TABLE="${COMPLETED_TABLE}| $name | $event_type | $date | $links | $goal | $result$MEDAL |\n"
               fi
             done <<< "$SORTED_COMPLETED"
           fi
@@ -258,8 +258,8 @@ jobs:
             # Add completed races section
             if [ ! -z "$COMPLETED_TABLE" ]; then
               echo "### ✅ Completed Races"
-              echo "| Race | Event Type | Date | Links | Result | Goal |"
-              echo "|------|------------|------|-------|--------|------|"
+              echo "| Race | Event Type | Date | Links | Goal | Result |"
+              echo "|------|------------|------|-------|------|--------|"
               echo -e "$COMPLETED_TABLE"
             fi
             
