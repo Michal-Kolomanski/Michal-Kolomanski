@@ -18,6 +18,7 @@
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
 | 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **27 days** ⏳ | Survive and try to thrive | Yes |
+| 🚴 Cycling Adventure | TBA | TBA | 2026.07.31 | **68 days** ⏳ | Make memories | - |
 | 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **117 days** ⏳ | Min: 100km, 🙏: survive till sunrise, Max: 24h run | Yes |
 
 ### ✅ Completed Races
@@ -37,6 +38,7 @@
 
 
 *🤖 Auto-updated: May 24, 2026*
+
 
 
 
