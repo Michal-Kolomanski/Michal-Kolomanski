@@ -1,5 +1,5 @@
 <div align="center">
-   <h1><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> Hi there, I'm <a href="https://www.linkedin.com/in/michal-kolomanski/">Michał</a>, a Technical Lead at <a href="https://www.cyfronet.pl/en/4421,main.html">Cyfronet</a></h1>
+   <h1><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> Hi there, I'm <a href="https://www.linkedin.com/in/michal-kolomanski/">Michał</a>, a Technical Lead at <a href="http://cyfronet.pl/en">Cyfronet</a></h1>
 </div>
 
 ### 🧐 &nbsp; Things I Break, Fix, and Obsess Over:
