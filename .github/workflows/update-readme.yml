@@ -36,6 +36,7 @@ jobs:
           
           declare -a UPCOMING_RACE_DATA=(
             "🏃 Ultra Wierchami|65km Trail Ultra|2132m|2026-06-20|Survive and try to thrive|Yes"
+            "🚴 Cycling Adventure|TBA|TBA|2026-07-31|Make memories|-"
             "🏃 Backyard Ultra Zagłębie 2026|Backyard Ultra|-|2026-09-18|Min: 100km, 🙏: survive till sunrise, Max: 24h run|Yes"
           )
           
