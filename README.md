@@ -37,56 +37,5 @@
 
 *🤖 Auto-updated: May 24, 2026*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 📊 Github Stats
 ![Michał's stats](https://github-readme-stats.vercel.app/api?username=Michal-Kolomanski&count_private=true&show_icons=true&theme=radical)
