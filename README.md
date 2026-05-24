@@ -26,7 +26,7 @@
 |------|------------|------|-------|------|--------|
 | 🏃 Backyard Ultra Zagłębie 2025 | Backyard Ultra | 2025.09.19 | [Strava](https://www.strava.com/activities/15868592716) [Instagram](https://www.instagram.com/stories/highlights/18078026911986589/) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/buz-2025/) | Run 100km | 55km (8h) - 88th place 🥇 |
 | 🏃 22. Krakowski Półmaraton Marzanny | Half Marathon | 2026.03.22 | [Strava](https://www.strava.com/activities/17814542993) [Relation](https://www.instagram.com/p/DWObsZgjflx/) | <1:40h | 01:40:22 🥇 |
-| 🏃 Półmaraton Krakowski | Half Marathon | 2023.10.08 | [Strava](https://strava.app.link/O98I0Quop3b) | Finish | 02:23:12 |
+| 🏃 Półmaraton Krakowski | Half Marathon | 2023.10.08 | [Strava](https://strava.app.link/O98I0Quop3b) | Have fun | 02:23:12 |
 | 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 2025.08.03 | [Swim](https://www.strava.com/activities/15330199249) [Bike](https://www.strava.com/activities/15331983225) [Run](https://www.strava.com/activities/15330206515) [Summary](https://www.instagram.com/p/DNGo1IwsmK0) | Finish | 06:18:19 🥇 |
 | 🏃 Kraków Marathon 2026 | Marathon | 2026.04.19 | [Strava](https://strava.app.link/HBVq8VKop3b) [Relation](https://www.instagram.com/p/DXcKWkSjcLB/) | <3:30h | 03:40:22 🥇 |
 | 🏃 Poznań Marathon 2025 | Marathon | 2025.10.12 | [Strava](https://www.strava.com/activities/16115706270) [Relation](https://www.instagram.com/p/DPy-G-tjSyz/) | <3:40 | 03:44:17 |
@@ -38,6 +38,7 @@
 
 
 *🤖 Auto-updated: May 24, 2026*
+
 
 
 
