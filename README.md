@@ -17,9 +17,9 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
-| 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **21 days** ⏳ | Survive and try to thrive | Yes |
-| 🚴 Cycling Adventure | TBA | TBA | 2026.07.31 | **62 days** ⏳ | Make memories | - |
-| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **111 days** ⏳ | Min: 100km, 🙏: survive till sunrise, Max: 24h run | Yes |
+| 🏃 Ultra Wierchami | 65km Trail Ultra | 2132m | 2026.06.20 | **20 days** ⏳ | Survive and try to thrive | Yes |
+| 🚴 Cycling Adventure | TBA | TBA | 2026.07.31 | **61 days** ⏳ | Make memories | - |
+| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **110 days** ⏳ | Min: 100km, 🙏: survive till sunrise, Max: 24h run | Yes |
 
 ### ✅ Completed Races
 | Race | Event Type | Date | Links | Goal | Result |
@@ -37,7 +37,8 @@
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 2025.07.11-2025.07.19 | [1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1) | Have fun | Distance: 943km, Time: 7 days |
 
 
-*🤖 Auto-updated: May 30, 2026*
+*🤖 Auto-updated: May 31, 2026*
+
 
 
 
