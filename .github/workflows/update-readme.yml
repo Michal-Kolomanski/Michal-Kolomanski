@@ -35,15 +35,15 @@ jobs:
           # - Date range: "2025-09-19:2025-09-20" (start:end)
           
           declare -a UPCOMING_RACE_DATA=(
-            "🏃 Ultra Wierchami|65km Trail Ultra|2132m|2026-06-20|Survive and try to thrive|Yes"
             "🚴 Cycling Adventure|TBA|TBA|2026-07-31|Make memories|-"
             "🏃 Backyard Ultra Zagłębie 2026|Backyard Ultra|-|2026-09-18|Min: 100km, 🙏: survive till sunrise, Max: 24h run|Yes"
           )
           
           declare -a COMPLETED_RACE_DATA=(
             "🏃 22. Krakowski Półmaraton Marzanny|Half Marathon|2026-03-22|[Strava](https://www.strava.com/activities/17814542993) [Relation](https://www.instagram.com/p/DWObsZgjflx/)|01:40:22|<1:40h"
+            "🏃 Ultra Wierchami|65km Trail Ultra|2026-06-20|[Strava](https://www.strava.com/activities/18999216583) [Results](https://dostartu.pl/xii-festiwal-biegu-wierchami-cc16147-ccx51348)|09:57:21|Survive and try to thrive"
             "🏃 Łącko Fest|Trail 18.5km|2026-05-09|[Strava](https://www.strava.com/activities/18436793340) [Relation](https://www.instagram.com/p/DYSJ466N-8i/)|01:56:33|Have fun"
-            "🏃 Kraków Marathon 2026|Marathon|2026-04-19|[Strava](https://strava.app.link/HBVq8VKop3b) [Relation](https://www.instagram.com/p/DXcKWkSjcLB/)|03:40:22|<3:30h"
+            "🏃 Kraków Marathon 2026|Marathon|2026-04-19|[Strava](https://strava.app.link/HBVq8VKop3b) [Relation](https://www.instagram.com/p/DXcKWkSjcLB/)|03:40:22|<3:30"
             "🏃 Poznań Marathon 2025|Marathon|2025-10-12|[Strava](https://www.strava.com/activities/16115706270) [Relation](https://www.instagram.com/p/DPy-G-tjSyz/)|03:44:17|<3:40"
             "🏃 Warsaw Marathon 2024|Marathon|2024-09-29|[Strava](https://www.strava.com/activities/12531323025?utm_source=ios_share&utm_medium=social&share_sig=64733EDE1727629711&fbclid=PAZXh0bgNhZW0CMTEAAafc8yzW3ii9koA5-nxJkRaHQcIKrkDxQwfKWHDcuNoJXgM7RShyWIzuXiA0WQ_aem_mur5gamWZZW6bKzKw2Svjg&_branch_match_id=1401898015619269921&_branch_referrer=H4sIAAAAAAAAAwXB2wqCMBgA4LfprpROViAxLDylZAYTb2SzuS2P%2FJ696Nn7PtF1TXtRlLYDMpANaZpNIatc6S3TfHh7Tfj0mtG0kB%2F9ieJIqJT7Isaq4b3vCJEsPc0L3kl5zmt0WFeTk7%2BIFaS2C%2FltCsbMxdYt7f3aibinvUIxY3vpI4lUHCSElUnZw4GTEscxPlJ3ccdtOHz56gcsYwCy4gmFemwZ6IaAumR%2Fdhh%2BPbAAAAA%3D)|03:58:27|<4:00"
             "🏃 Kraków Marathon 2024|Marathon|2024-04-14|[Strava](https://www.strava.com/activities/11179716421?share_sig=3UIZY2OL1713105528&utm_medium=social&utm_source=android_share)|04:29:31|<4:30"
