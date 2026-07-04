@@ -17,14 +17,15 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
-| 🚴 Cycling Adventure | TBA | TBA | 2026.07.31 | **27 days** ⏳ | Make memories | - |
+| 🏃 Parszywa Bendoszka (Chudy Wawrzyniec) | 63km trail | 3200m | 2026.08.08 | **35 days** ⏳ | Have fun! | Yes |
+| 🚴 Cycling Adventure | TBA | TBA | 2026.08.31 | **58 days** ⏳ | Make memories | - |
 | 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **76 days** ⏳ | Min: 100km, 🙏: survive till sunrise, Max: 24h run | Yes |
 
 ### ✅ Completed Races
 | Race | Event Type | Elevation | Date | Links | Goal | Result |
 |------|------------|-----------|------|-------|------|--------|
 | 🏃 Łącko Fest | 19km trail | 629m | 2026.05.09 | [Strava](https://www.strava.com/activities/18436793340) [Relation](https://www.instagram.com/p/DYSJ466N-8i/) | Have fun | 01:56:33 🥇 |
-| 🏃 Ultra Wierchami | 65km trail | 2354m | 2026.06.20 | [Strava](https://www.strava.com/activities/18999216583) [Results](https://dostartu.pl/xii-festiwal-biegu-wierchami-cc16147-ccx51348) | Survive and try to thrive | 09:57:21 🥇 |
+| 🏃 Ultra Wierchami | 63km trail | 2354m | 2026.06.20 | [Strava](https://www.strava.com/activities/18999216583) [Relation](https://www.instagram.com/p/DaV4Ye2C1hM/) [Results](https://dostartu.pl/xii-festiwal-biegu-wierchami-cc16147-ccx51348) | Survive and try to thrive | 09:57:21 🥇 |
 | 🏃 Backyard Ultra Zagłębie 2025 | Backyard Ultra | 162m | 2025.09.19 | [Strava](https://www.strava.com/activities/15868592716) [Instagram](https://www.instagram.com/stories/highlights/18078026911986589/) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/buz-2025/) | Run 100km | 55km (8h) - 88th place 🥇 |
 | 🏃 22. Krakowski Półmaraton Marzanny | Half Marathon | 91m | 2026.03.22 | [Strava](https://www.strava.com/activities/17814542993) [Relation](https://www.instagram.com/p/DWObsZgjflx/) | <1:40h | 01:40:22 🥇 |
 | 🏃 Półmaraton Krakowski | Half Marathon | 76m | 2023.10.08 | [Strava](https://strava.app.link/O98I0Quop3b) | Have fun | 02:23:12 |
@@ -38,6 +39,7 @@
 
 
 *🤖 Auto-updated: July 04, 2026*
+
 
 
 
