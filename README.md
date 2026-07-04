@@ -17,8 +17,8 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
-| 🚴 Cycling Adventure | TBA | TBA | 2026.07.31 | **28 days** ⏳ | Make memories | - |
-| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **77 days** ⏳ | Min: 100km, 🙏: survive till sunrise, Max: 24h run | Yes |
+| 🚴 Cycling Adventure | TBA | TBA | 2026.07.31 | **27 days** ⏳ | Make memories | - |
+| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **76 days** ⏳ | Min: 100km, 🙏: survive till sunrise, Max: 24h run | Yes |
 
 ### ✅ Completed Races
 | Race | Event Type | Elevation | Date | Links | Goal | Result |
@@ -37,7 +37,8 @@
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 5191m | 2025.07.11-2025.07.19 | [1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1) | Have fun | Distance: 943km, Time: 7 days |
 
 
-*🤖 Auto-updated: July 03, 2026*
+*🤖 Auto-updated: July 04, 2026*
+
 
 
 
