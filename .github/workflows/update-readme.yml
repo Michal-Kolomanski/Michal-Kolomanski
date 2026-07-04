@@ -35,13 +35,14 @@ jobs:
           # - Date range: "2025-09-19:2025-09-20" (start:end)
           
           declare -a UPCOMING_RACE_DATA=(
-            "🚴 Cycling Adventure|TBA|TBA|2026-07-31|Make memories|-"
+            "🏃 Parszywa Bendoszka (Chudy Wawrzyniec)|63km trail|3200m|2026-08-08|Have fun!|Yes"
+            "🚴 Cycling Adventure|TBA|TBA|2026-08-31|Make memories|-"
             "🏃 Backyard Ultra Zagłębie 2026|Backyard Ultra|-|2026-09-18|Min: 100km, 🙏: survive till sunrise, Max: 24h run|Yes"
           )
           
           declare -a COMPLETED_RACE_DATA=(
             "🏃 22. Krakowski Półmaraton Marzanny|Half Marathon|91m|2026-03-22|[Strava](https://www.strava.com/activities/17814542993) [Relation](https://www.instagram.com/p/DWObsZgjflx/)|01:40:22|<1:40h"
-            "🏃 Ultra Wierchami|65km trail|2354m|2026-06-20|[Strava](https://www.strava.com/activities/18999216583) [Results](https://dostartu.pl/xii-festiwal-biegu-wierchami-cc16147-ccx51348)|09:57:21|Survive and try to thrive"
+            "🏃 Ultra Wierchami|63km trail|2354m|2026-06-20|[Strava](https://www.strava.com/activities/18999216583) [Relation](https://www.instagram.com/p/DaV4Ye2C1hM/) [Results](https://dostartu.pl/xii-festiwal-biegu-wierchami-cc16147-ccx51348)|09:57:21|Survive and try to thrive"
             "🏃 Łącko Fest|19km trail|629m|2026-05-09|[Strava](https://www.strava.com/activities/18436793340) [Relation](https://www.instagram.com/p/DYSJ466N-8i/)|01:56:33|Have fun"
             "🏃 Kraków Marathon 2026|Marathon|133m|2026-04-19|[Strava](https://strava.app.link/HBVq8VKop3b) [Relation](https://www.instagram.com/p/DXcKWkSjcLB/)|03:40:22|<3:30"
             "🏃 Poznań Marathon 2025|Marathon|193m|2025-10-12|[Strava](https://www.strava.com/activities/16115706270) [Relation](https://www.instagram.com/p/DPy-G-tjSyz/)|03:44:17|<3:40"
