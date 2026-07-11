@@ -17,9 +17,9 @@
 ### ⏱️ Upcoming Races
 | Race | Event Type | Elevation | Date | Days Left | Goal | Registered? |
 |------|------------|-----------|------|-----------|------|-------------|
-| 🏃 Parszywa Bendoszka (Chudy Wawrzyniec) | 63km trail | 3200m | 2026.08.08 | **29 days** ⏳ | Have fun! | Yes |
-| 🚴 Cycling Adventure | TBA | TBA | 2026.08.31 | **52 days** ⏳ | Make memories | - |
-| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **70 days** ⏳ | Min: 100km, 🙏: survive till sunrise, Max: 24h run | Yes |
+| 🏃 Parszywa Bendoszka (Chudy Wawrzyniec) | 63km trail | 3200m | 2026.08.08 | **28 days** ⏳ | Have fun! | Yes |
+| 🚴 Cycling Adventure | TBA | TBA | 2026.08.31 | **51 days** ⏳ | Make memories | - |
+| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | - | 2026.09.18 | **69 days** ⏳ | Min: 100km, 🙏: survive till sunrise, Max: 24h run | Yes |
 
 ### ✅ Completed Races
 | Race | Event Type | Elevation | Date | Links | Goal | Result |
@@ -38,7 +38,8 @@
 | 🚴 Ride Across Poland (Suwałki-Świnoujście) | 🇵🇱 EAST-WEST | 5191m | 2025.07.11-2025.07.19 | [1](https://www.strava.com/activities/15092278881) [2](https://www.strava.com/activities/15104903349) [3](https://www.strava.com/activities/15115077577) [4](https://www.strava.com/activities/15127042485) [5](https://www.strava.com/activities/15137970114) [6](https://www.strava.com/activities/15147765776) [7](https://www.strava.com/activities/15158829706) [Summary](https://www.instagram.com/p/DMSU81gMNCl/?img_index=1) | Have fun | Distance: 943km, Time: 7 days |
 
 
-*🤖 Auto-updated: July 10, 2026*
+*🤖 Auto-updated: July 11, 2026*
+
 
 
 
