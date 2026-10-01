@@ -24,8 +24,8 @@
 | 🏃 Łącko Fest | 19km trail | 629m | 2026.05.09 | [Strava](https://www.strava.com/activities/18436793340) [Relation](https://www.instagram.com/p/DYSJ466N-8i/) | Have fun | 01:56:33 🥇 |
 | 🏃 Ultra Wierchami | 63km trail | 2354m | 2026.06.20 | [Strava](https://www.strava.com/activities/18999216583) [Relation](https://www.instagram.com/p/DaV4Ye2C1hM/) [Results](https://dostartu.pl/xii-festiwal-biegu-wierchami-cc16147-ccx51348) | Survive and try to thrive | 09:57:21 🥇 |
 | 🏃 Parszywa Bendoszka (Chudy Wawrzyniec) | 63km trail | 3200m | 2026.08.08 | [Strava](https://www.strava.com/activities/19657948593) [Relation](https://www.instagram.com/p/DbyrD3gNOVS/?hl=en) | Have fun! | 12:19:00 |
-| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | 304m | 2026.09.18-2026.09.19 | [Strava](https://www.strava.com/activities/20234431232) [Relation](https://www.instagram.com/p/DdjaqodNieb) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/2026) | Don't quit. | 110km (16h) - 33rd place 🥇 |
-| 🏃 Backyard Ultra Zagłębie 2025 | Backyard Ultra | 162m | 2025.09.19 | [Strava](https://www.strava.com/activities/15868592716) [Instagram](https://www.instagram.com/stories/highlights/18078026911986589/) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/buz-2025/) | Run 100km | 55km (8h) - 88th place |
+| 🏃 Backyard Ultra Zagłębie 2026 | Backyard Ultra | 304m | 2026.09.18-2026.09.19 | [Strava](https://www.strava.com/activities/20234431232/overview) [Instagram](https://www.instagram.com/p/DdjaqodNieb) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/2026) | Don't quit. | 110km (16h) - 33rd place 🥇 |
+| 🏃 Backyard Ultra Zagłębie 2025 | Backyard Ultra | 162m | 2025.09.19 | [Strava](https://www.strava.com/activities/15868592716/overview) [Instagram](https://www.instagram.com/stories/highlights/18078026911986589/) [Results](https://wpzd.pl/backyard-ultra-zaglebie/wyniki/buz-2025/) | Run 100km | 55km (8h) - 88th place |
 | 🏃 22. Krakowski Półmaraton Marzanny | Half Marathon | 91m | 2026.03.22 | [Strava](https://www.strava.com/activities/17814542993) [Relation](https://www.instagram.com/p/DWObsZgjflx/) | <1:40h | 01:40:22 🥇 |
 | 🏃 Półmaraton Krakowski | Half Marathon | 76m | 2023.10.08 | [Strava](https://strava.app.link/O98I0Quop3b) | Have fun | 02:23:12 |
 | 🏊‍♂️🚴🏃 IRONMAN 70.3 Kraków | IRONMAN 70.3 | 961m | 2025.08.03 | [Swim](https://www.strava.com/activities/15330199249) [Bike](https://www.strava.com/activities/15331983225) [Run](https://www.strava.com/activities/15330206515) [Summary](https://www.instagram.com/p/DNGo1IwsmK0) | Finish | 06:18:19 🥇 |
@@ -38,6 +38,7 @@
 
 
 *🤖 Auto-updated: October 01, 2026*
+
 
 
 
